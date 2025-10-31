@@ -7,10 +7,10 @@ module.exports = {
 
   nodes: [
     {
-      host: "your-lavalink-host.com", // Your lavalink host address 
-      password: "your-password", // Your lavalink password
-      port: 2333, // Your lavalink port
-      identifier: "Node", // Name for your lavalink
+      host: "http://85.215.137.163", // Your lavalink host address 
+      password: "astranode", // Your lavalink password
+      port: 13731, // Your lavalink port
+      identifier: "Astra Node 1", // Name for your lavalink
       secure: false, // set to true if your lavalink has SSL
       reconnectTimeout: 300000,
       reconnectTries: 100,
