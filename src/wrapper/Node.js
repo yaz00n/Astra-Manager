@@ -3,11 +3,11 @@ const colors = require("colors");
 
 class Node {
   constructor(options) {
-    this.host = options.host || "localhost";
-    this.port = options.port || 2333;
-    this.password = options.password || "youshallnotpass";
+    this.host = options.host || "85.215.137.163";
+    this.port = options.port || 13731;
+    this.password = options.password || "astranode";
     this.secure = options.secure || false;
-    this.identifier = options.identifier || this.host;
+    this.identifier = options.identifier || "Astra Status";
     this.nodesMap = null;
     this.ws = null;
     this.connected = false;
